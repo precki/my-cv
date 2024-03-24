@@ -1,0 +1,10 @@
+@import '../variables';
+
+.cv-main {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "header header" "details presonal";
+    grid-template-columns: 250px 1fr;
+}

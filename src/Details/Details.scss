@@ -1,0 +1,7 @@
+@import '../variables';
+
+.cv-details {
+    grid-area: "details";
+    padding: $main-gap;
+    background-color: #fafafa;
+}

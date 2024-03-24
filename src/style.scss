@@ -1,29 +1,10 @@
-$main-gap: 20px; // zmienna
+@import './variables';
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.cv-main {
-    max-width: 850px;
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-areas: "header header" "details presonal";
-    grid-template-columns: 250px 1fr;
-}
-
-h2 {
-    margin-bottom: $main-gap;
-}
-
-.cv-header {
-    grid-area: header;
-    padding: $main-gap;
-    text-align: center;
 }
 
 ul {
@@ -34,22 +15,7 @@ ul {
     }    
 }
 
-.cv-personal {
-    grid-area: "personal";
-    padding: $main-gap;
-    background-color: #f2f2f2;
-    text-align: center;
-}
-
-.cv-details {
-    grid-area: "details";
-    padding: $main-gap;
-    background-color: #fafafa;
-}
-
-.cv-photo {
-    width: 100%;
-    margin-top: $main-gap;
+h2 {
     margin-bottom: $main-gap;
-    border-radius: 50%;
 }
+
